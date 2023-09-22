@@ -1,6 +1,6 @@
 {
   "name": "dice-rolling-game",
-  "homepage": "https://cogut2005.github.io/dice_rolling_game/",
+  "homepage": "https://cogut2005.github.io/dice-rolling-game/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
