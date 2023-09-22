@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(15px + 2vmin);
   color: white;
 }
 
@@ -35,4 +35,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+  font-size: 20px;
+  text-align: center;
+  padding: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .dice {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      line-height: 40px;
+  }
+
+  .dice-dot {
+      width: 8px;
+      height: 8px;
+  }
+}
+
+.footer {
+  margin-top: 50px;
+  font-size: 16px;
+  color: #555;
 }
