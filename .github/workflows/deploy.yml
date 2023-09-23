@@ -28,7 +28,7 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4.4.3
       with:
         token: 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
-        base-branch: master
+        base_branch: master
         branch: gh-pages 
         folder: build     
         clean: true
