@@ -3,15 +3,22 @@ import Dice from './Dice';
 import './App.css';
 
 function App() {
-    const [numDices, setNumDices] = useState(1);
     const [diceValues, setDiceValues] = useState([]);
+    const [numDices, setNumDices] = useState(1);
     const [rolling, setRolling] = useState(false);
 
     const rollDices = () => {
+        // First, update the number of dice on the screen
+        const initialDiceValues = Array.from({ length: numDices }, () => 1);
+        setDiceValues(initialDiceValues);
+
+        // Start the rolling animation
         setRolling(true);
-        const values = Array.from({ length: numDices }, () => Math.floor(Math.random() * 6) + 1);
+
+        // Generate new random dice values after the animation duration
         setTimeout(() => {
-            setDiceValues(values);
+            const newDiceValues = Array.from({ length: numDices }, () => Math.floor(Math.random() * 6) + 1);
+            setDiceValues(newDiceValues);
             setRolling(false);
         }, 700);
     };
