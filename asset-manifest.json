@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dice_rolling_game/static/css/main.fef92785.css",
-    "main.js": "/dice_rolling_game/static/js/main.6117b207.js",
-    "static/js/787.83b3a764.chunk.js": "/dice_rolling_game/static/js/787.83b3a764.chunk.js",
-    "index.html": "/dice_rolling_game/index.html",
-    "main.fef92785.css.map": "/dice_rolling_game/static/css/main.fef92785.css.map",
-    "main.6117b207.js.map": "/dice_rolling_game/static/js/main.6117b207.js.map",
-    "787.83b3a764.chunk.js.map": "/dice_rolling_game/static/js/787.83b3a764.chunk.js.map"
+    "main.css": "/cogut2005/dice-rolling-game.git/static/css/main.fef92785.css",
+    "main.js": "/cogut2005/dice-rolling-game.git/static/js/main.acd80372.js",
+    "static/js/787.83b3a764.chunk.js": "/cogut2005/dice-rolling-game.git/static/js/787.83b3a764.chunk.js",
+    "index.html": "/cogut2005/dice-rolling-game.git/index.html",
+    "main.fef92785.css.map": "/cogut2005/dice-rolling-game.git/static/css/main.fef92785.css.map",
+    "main.acd80372.js.map": "/cogut2005/dice-rolling-game.git/static/js/main.acd80372.js.map",
+    "787.83b3a764.chunk.js.map": "/cogut2005/dice-rolling-game.git/static/js/787.83b3a764.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fef92785.css",
-    "static/js/main.6117b207.js"
+    "static/js/main.acd80372.js"
   ]
 }
