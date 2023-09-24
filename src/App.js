@@ -37,7 +37,7 @@ function App() {
                 ))}
             </div>
             <div className="footer">
-              Coded by Cinar Ogut
+              Coded by Cinar OGUT
             </div>
         </div>
     );
