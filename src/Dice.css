@@ -1,0 +1,99 @@
+/* Dice styling */
+.dice {
+    position: relative;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 50px;
+    transition: transform 0.6s ease;
+}
+
+/* Rolling animation */
+.dice.rolling {
+    animation: rollDice 0.6s forwards;
+}
+
+@keyframes rollDice {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(90deg); }
+    50% { transform: rotate(180deg); }
+    75% { transform: rotate(270deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Dice styling */
+/* Dice styling */
+.dice {
+    position: relative;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #1d85e6;
+}
+
+/* Dice dot styles */
+.dice-dot {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+    display: none; /* Hide by default */
+}
+
+.dice-dot.active {
+    display: block;
+}
+
+/* Dice-dot positioning */
+
+/* Center dot for 1, 3, 5 */
+.dot-1 { 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+
+/* Top-left dot for 2, 3, 4, 5, 6 */
+.dot-2 { 
+    top: 15%; 
+    left: 15%; 
+}
+
+/* Top-right dot for 4, 5, 6 */
+.dot-3 { 
+    top: 15%; 
+    right: 15%; 
+}
+
+/* Bottom-left dot for 4, 5, 6 */
+.dot-4 { 
+    bottom: 15%; 
+    left: 15%; 
+}
+
+/* Bottom-right dot for 2, 3, 4, 5, 6 */
+.dot-5 { 
+    bottom: 15%; 
+    right: 15%; 
+}
+
+/* Middle-left dot for 6 */
+.dot-6 { 
+    top: 50%; 
+    left: 15%; 
+    transform: translateY(-50%); 
+}
+
+/* Middle-right dot for 6 */
+.dot-7 { 
+    top: 50%; 
+    right: 15%; 
+    transform: translateY(-50%); 
+}
