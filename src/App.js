@@ -8,7 +8,6 @@ function App() {
     const [rolling, setRolling] = useState(false);
 
     const rollDices = () => {
-        // First, update the number of dice on the screen
         const initialDiceValues = Array.from({ length: numDices }, () => 1);
         setDiceValues(initialDiceValues);
 
