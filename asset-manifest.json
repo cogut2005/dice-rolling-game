@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "https://cogut2005.github.io/dice-rolling-game/static/css/main.fef92785.css",
+    "main.js": "https://cogut2005.github.io/dice-rolling-game/static/js/main.ba79b454.js",
+    "static/js/787.83b3a764.chunk.js": "https://cogut2005.github.io/dice-rolling-game/static/js/787.83b3a764.chunk.js",
+    "index.html": "https://cogut2005.github.io/dice-rolling-game/index.html",
+    "main.fef92785.css.map": "https://cogut2005.github.io/dice-rolling-game/static/css/main.fef92785.css.map",
+    "main.ba79b454.js.map": "https://cogut2005.github.io/dice-rolling-game/static/js/main.ba79b454.js.map",
+    "787.83b3a764.chunk.js.map": "https://cogut2005.github.io/dice-rolling-game/static/js/787.83b3a764.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fef92785.css",
+    "static/js/main.ba79b454.js"
+  ]
+}
